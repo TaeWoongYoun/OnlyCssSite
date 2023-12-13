@@ -21,7 +21,7 @@ nav{
 .mainMenu > li {
     font-size: 18px;
     font-weight: 800;
-    width:150px;
+    width:160px;
     height:70px;
     background-color: aliceblue;
     line-height: 70px; 
@@ -31,7 +31,7 @@ nav{
 }
 
 .subMenu{
-    width: 150px;
+    width: 160px;
     height: 70px ;
     display:none;
     position: absolute;
@@ -40,7 +40,7 @@ nav{
 }
 
 .subMenu > li{
-    width: 150px;
+    width: 160px;
     height: 70px;
     font-size: 16px;
 }
@@ -57,4 +57,54 @@ nav{
 .mainMenu > li > ul> li:hover {
     background: black;
     color: aliceblue;
+}
+
+.imgSlide{
+    width: 800px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.window{
+    width: 3200px;
+    height: 300px;
+    position: absolute;
+    animation: 6s infinite linear window;
+    display: flex;
+}
+
+.window li{
+    width: 800px;
+    height: 300px;
+}
+
+@keyframes window{
+    0%{
+        left: 0px;
+    }
+
+    23%{
+        left: 0%;
+    }
+
+    33%{
+        left: -800px;
+    }
+
+    56%{
+        left: -800px;
+    }
+
+    66%{
+        left: -1600px;
+    }
+
+    90%{
+        left: -1600px;
+    }
+
+    100%{
+        left: -2400px;
+    }
 }
