@@ -49,6 +49,26 @@ nav{
     display:block;
 }
 
+.content{
+    width: 800px;
+    height: 200px;
+}
+
+.con{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    float: left;
+}
+
+.con1{
+    background: linear-gradient(to bottom, gold, silver);
+}
+
+.con2{
+    background-color: black;
+}
+
 .mainMenu > li > ul > li{
     background-color: aliceblue;
     transition: all 1s;
